@@ -1,4 +1,4 @@
-Let-s-try--ActiveRecord
+Let's try: ActiveRecord and SQLite
 =======================
 
-Let's try Ruby ActiveRecords with SQLite DB.
+From the series "let's try"....ActiveRecord and SQLite.
