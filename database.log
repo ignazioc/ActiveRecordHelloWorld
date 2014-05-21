@@ -1,0 +1,7 @@
+D, [2014-05-21T22:03:26.988995 #65041] DEBUG -- :   [1m[36m (6.0ms)[0m  [1mCREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "surname" varchar(255)) [0m
+D, [2014-05-21T22:03:27.005031 #65041] DEBUG -- :   [1m[35mCustomer Load (0.1ms)[0m  SELECT  "customers".* FROM "customers"  WHERE "customers"."name" = 'Martin' LIMIT 1
+D, [2014-05-21T22:03:27.008116 #65041] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2014-05-21T22:03:27.010222 #65041] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "customers" ("name", "surname") VALUES (?, ?)  [["name", "Martin"], ["surname", "Bob"]]
+D, [2014-05-21T22:03:27.011495 #65041] DEBUG -- :   [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+D, [2014-05-21T22:03:27.011632 #65041] DEBUG -- :   [1m[35m (0.0ms)[0m  begin transaction
+D, [2014-05-21T22:03:27.011803 #65041] DEBUG -- :   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
